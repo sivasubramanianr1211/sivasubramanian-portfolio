@@ -28,7 +28,7 @@ const Header: React.FC = () => {
               </div>
               {console.log('ismenu',isMenuOpen )}
               {isMenuOpen && (
-                <div className="fixed inset-0 bg-gray-800 bg-opacity-75 z-50">
+                <div className="fixed inset-0 bg-black bg-opacity-75 z-50">
                   <div className="flex items-center justify-end p-4">
                     <div className="cursor-pointer" onClick={toggleMenu}>
                       {/* Close icon or any other close mechanism */}
@@ -36,14 +36,14 @@ const Header: React.FC = () => {
                     </div>
                   </div>
                   <div className="flex flex-col items-center text-white">
-                    <a href="#description" className="py-2">
-                      Description
+                    <a href="#description" className="py-2 text-[22px]" onClick={toggleMenu}>
+                      <b>Description</b>
                     </a>
-                    <a href="#skillset" className="py-2">
-                      Skillset
+                    <a href="#skillset" className="py-2 text-[22px]" onClick={toggleMenu}>
+                    <b> Skillset</b>
                     </a>
-                    <a href="#contact" className="py-2">
-                      Contact
+                    <a href="#contact" className="py-2 text-[22px]" onClick={toggleMenu}>
+                    <b> Contact</b>
                     </a>
                   </div>
                 </div>

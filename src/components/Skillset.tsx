@@ -19,7 +19,7 @@ const Skillset: React.FC = () => {
     "MySQL",
     "MongoDB",
     "AWS codecommit",
-    "Github/GitLab"
+    "Github / GitLab"
   ];
   return (
     <section id="skillset" className="p-2">
